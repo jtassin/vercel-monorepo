@@ -12,3 +12,5 @@ npm i pnpm -g && cd packages/back && pnpm install && cd ../lib && pnpm install
 # Issues
 
 Impossible to set the root to packages/*
+
+trigger
