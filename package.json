@@ -1,0 +1,24 @@
+{
+  "name": "@jtassin/vercel-monorepo",
+  "version": "1.0.0",
+  "description": "Test vercel deploy on monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtassin/vercel-monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtassin/vercel-monorepo/issues"
+  },
+  "homepage": "https://github.com/jtassin/vercel-monorepo#readme",
+  "workspaces": [
+    "packages/back",
+    "packages/front",
+    "packages/lib"
+  ]
+}
