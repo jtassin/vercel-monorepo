@@ -6,9 +6,9 @@ console.timeEnd('import')
 
 export default async (req: VercelRequest, res: VercelResponse) => {
     console.time('appReady')
-    await app.ready();
+    await instance.ready();
     console.timeEnd('appReady')
     console.time('request')
-    app.server.emit('request', req, res);
+    instance.server.emit('request', req, res);
     console.timeEnd('request')
 }
