@@ -16,6 +16,11 @@
     "url": "https://github.com/jtassin/vercel-monorepo/issues"
   },
   "homepage": "https://github.com/jtassin/vercel-monorepo#readme",
+  "workspaces": [
+    "back",
+    "front",
+    "lib"
+  ],
   "dependencies": {
     "@vercel/node": "^1.13.0"
   }
