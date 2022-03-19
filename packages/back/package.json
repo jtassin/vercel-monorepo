@@ -14,7 +14,7 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "@jtassin/vercel-monorepo-lib": "workspace:../lib",
+    "@jtassin/vercel-monorepo-lib": "file:../lib",
     "@vercel/node": "^1.13.0",
     "fastify": "^3.27.4"
   }
