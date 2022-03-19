@@ -20,5 +20,8 @@
     "packages/back",
     "packages/front",
     "packages/lib"
-  ]
+  ],
+  "dependencies": {
+    "@vercel/node": "^1.13.0"
+  }
 }
